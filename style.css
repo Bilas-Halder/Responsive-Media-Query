@@ -100,6 +100,7 @@ hr{
 }
 .courses{
     width: 26%;
+    overflow: hidden;
 }
 
 .course-banner img{
@@ -184,7 +185,7 @@ footer p{
          padding-left: 20px;
      }
     .courses{
-        width: 100%;
+        width: 93%;
         padding: 0px 0px 20px 30px;
     }
     .latest-courses{
@@ -201,9 +202,15 @@ footer p{
     }
     
 
-
-     
     
+}
+@media screen and (max-width:380px) {
+    .top-blogs{
+        padding-right: 0px;
+    }
+    .course-detail {
+        width: 65%;
+    }
 }
 
 
