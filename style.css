@@ -107,6 +107,10 @@ hr{
     height: 104px;
 
 }
+.course-author a{
+    text-decoration: none;
+    color: #ff3c53;
+}
 .fa-star{
     font-size: 12px;
 }
@@ -128,6 +132,12 @@ hr{
     color: #FF4A60;
 }
 
+footer p{
+    margin-top: 15px;
+    text-align: center;
+    color: gray;
+}
+
 
 
 /* Media Queries */
@@ -136,13 +146,16 @@ hr{
 @media screen and (max-width:688px) {
 
     .container{
-        background-color: rebeccapurple;
         width: 100%;
         padding: 33px 0px;
         margin-top: 0px;
     }
     .top-player,.top-blogs{
         margin-left: 20px;
+        padding-right: 30px;
+    }
+    .top-player{
+        padding-right: 50px;
     }
     .players{
         grid-template-columns: repeat(2,1fr);
@@ -167,8 +180,29 @@ hr{
     }
 
 
-     .mid{
+     .sec-title{
+         padding-left: 20px;
+     }
+    .courses{
+        width: 100%;
+        padding: 0px 0px 20px 30px;
     }
+    .latest-courses{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .course-detail{
+        width: 55%;
+    }
+    .course-author{
+        margin-top: -20px;
+        margin-bottom: -5px;
+    }
+    
+
+
+     
     
 }
 
